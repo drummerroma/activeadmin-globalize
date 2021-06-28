@@ -1,15 +1,36 @@
-appraise 'rails4_2' do
-  gem 'rails', '~> 4.2.9'
-  gem 'globalize', '~> 5.0.0'
+#appraise 'rails5_0' do
+#  gem 'rails', '~> 4.2.9'
+#  gem 'globalize', '~> 5.0.0'
+#end
+
+#appraise 'rails5_1' do
+#  gem 'devise', '~> 4.3'
+#  gem 'rails', '~> 5.1.3'
+#  gem 'globalize', '~> 5.1.0.beta2'
+#end
+
+appraise 'rails5_2' do
+    gem 'devise', '~> 4.5'
+    gem 'rails', '~> 5.2.1'
+    #gem 'globalize', github: 'globalize/globalize', ref: 'e37c471775d196cd4318e61954572c300c015467'
 end
 
-appraise 'rails5_0' do
-  gem 'rails', '~> 4.2.9'
-  gem 'globalize', '~> 5.0.0'
+appraise 'rails6_0' do
+    gem 'devise', '~> 4.7.1'
+    gem 'rails', '~> 6.0.0'
+    gem 'actionpack', '~> 6.0.0'
+    gem 'activerecord', '~> 6.0.0'
+    gem 'activesupport', '~> 6.0.0'
+    #gem 'capybara', '~> 3.35'
+    gem 'globalize'#, '~> 6.0.1'
 end
 
-appraise 'rails5_1' do
-  gem 'devise', '~> 4.3'
-  gem 'rails', '~> 5.1.3'
-  gem 'globalize', '~> 5.1.0.beta2'
+appraise 'rails6_1' do
+    gem 'devise', '~> 4.8.0'
+    gem 'rails', '~> 6.1.3'
+    gem 'actionpack', '~> 6.1.3'
+    gem 'activerecord', '~> 6.1.3'
+    gem 'activesupport', '~> 6.1.3'
+    #gem 'capybara', '~> 3.35'
+    gem 'globalize', '~> 6.0.1'
 end
